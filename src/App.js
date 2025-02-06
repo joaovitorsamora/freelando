@@ -1,11 +1,15 @@
+import { Card } from "./components/Card/Card";
 import { Styles } from "./components/GlobalStyles/Styles";
+import { Themes } from "./components/ThemeProvider/Themes";
 
 function App() {
   return (
-    <div>
+    <Themes>
       <Styles />
-      <h1>Freelando</h1>
-    </div>
+      <Card>
+        <h1>Freelando</h1>
+      </Card>
+    </Themes>
   );
 }
 
