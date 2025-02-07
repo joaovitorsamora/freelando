@@ -30,7 +30,9 @@ const theme = {
     spacing: {
        l: '32px',
        s: '16px',   
-    }
+    },
+
+    fontFamily: "'Montserrat', sans-serif"
 }
 
 export const Themes = ({children}) => {
